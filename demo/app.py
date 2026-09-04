@@ -6,7 +6,7 @@ from ml.predict import predict_route
 st.set_page_config(page_title="NER Smart Logistics AI",page_icon="🚚",layout="wide")
 st.title("🚚 NER Smart Logistics & Accessibility Intelligence")
 st.caption("SIH prototype • ETA + route-risk prediction")
-st.info("Demo only: the included dataset is synthetic. Replace it with real NER data before claiming real-world accuracy.")
+st.info("Demo only: the included dataset is synthetic , only for demonstration purposes.")
 
 with st.sidebar:
     st.header("Route conditions")
